@@ -15,15 +15,15 @@ const projectsData = [
     outNumber: 3,
     eyebrow: "projects/",
     pythonCode: `project_1 = Project(
-    name="movie-recommender",
+    name="Movie-Recommendation-Engine",
     type="content-based recommendation system",
     stack=["pandas", "scikit-learn"],
     status="in_progress"
 )
 project_1.display()`,
-    title: "movie-recommender — content-based movie recommendation system.",
+    title: "Movie-Recommendation-Engine — content-based movie recommendation system.",
     description: "Recommends movies using content-based filtering (cosine similarity on genres/metadata) built in Python with pandas and scikit-learn.",
-    repoUrl: "https://github.com/sujay-515",
+    repoUrl: "https://github.com/sujay-515/Movie-Recommendation-Engine",
     demoUrl: "#",
   },
   {
