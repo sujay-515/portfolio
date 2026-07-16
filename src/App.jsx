@@ -22,7 +22,7 @@ const projectsData = [
 )
 project_1.display()`,
     title: "Movie-Recommendation-Engine — content-based movie recommendation system.",
-    description: "Recommends movies using content-based filtering (cosine similarity on genres/metadata) built in Python with pandas and scikit-learn.",
+    description: "Movie-Recommendation-Engine — Full-stack movie recommender (FastAPI + React) using precomputed sentence-transformer embeddings (all-MiniLM-L6-v2), vectorized cosine similarity, fractional genre-overlap scoring, and a logarithmic popularity weight — across a 49k-title TMDB dataset. Includes typo-tolerant search and a 30-test suite.",
     repoUrl: "https://github.com/sujay-515/Movie-Recommendation-Engine",
     demoUrl: "#",
   },
