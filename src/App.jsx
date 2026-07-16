@@ -18,7 +18,7 @@ const projectsData = [
     name="Movie-Recommendation-Engine",
     type="content-based recommendation system",
     stack=["pandas", "scikit-learn"],
-    status="in_progress"
+    status="completed"
 )
 project_1.display()`,
     title: "Movie-Recommendation-Engine — content-based movie recommendation system.",
@@ -31,15 +31,15 @@ project_1.display()`,
     inNumber: 4,
     outNumber: 4,
     pythonCode: `project_2 = Project(
-    name="house-price-predictor",
-    type="housing market regression analysis",
-    stack=["pandas", "scikit-learn", "matplotlib"],
-    status="in_progress"
+    name="Sirupata-farm-house",
+    type="Django-based hotel web application",
+    stack=["Django", "MySQL", "TextBlob"],
+    status="completed"
 )
 project_2.display()`,
-    title: "house-price-predictor — California housing data regression analysis.",
-    description: "Predicts median house values using multiple regression and random forest models. Built in Python with scikit-learn, pandas, and matplotlib.",
-    repoUrl: "https://github.com/sujay-515",
+    title: "Sirupata-farm-house — Django-based hotel website with ML recommendations.",
+    description: "A Django-based hotel website for Sirupata Farm House, featuring room bookings, review sentiment analysis (TextBlob), and content-based room recommendations (TF-IDF + Cosine Similarity).",
+    repoUrl: "https://github.com/sujay-515/Sirupata-farm-house",
     demoUrl: "#",
   },
   {
@@ -47,14 +47,14 @@ project_2.display()`,
     inNumber: 5,
     outNumber: 5,
     pythonCode: `project_3 = Project(
-    name="sentiment-analyzer",
-    type="IMDb review sentiment classifier",
-    stack=["PyTorch", "transformers", "tokenizers"],
+    name="house-price-predictor",
+    type="housing market regression analysis",
+    stack=["pandas", "scikit-learn", "matplotlib"],
     status="in_progress"
 )
 project_3.display()`,
-    title: "sentiment-analyzer — IMDb review sentiment classifier.",
-    description: "Classifies movie reviews as positive or negative using an LSTM neural network and Hugging Face transformers. Built in Python with PyTorch.",
+    title: "house-price-predictor — California housing data regression analysis.",
+    description: "Predicts median house values using multiple regression and random forest models. Built in Python with scikit-learn, pandas, and matplotlib.",
     repoUrl: "https://github.com/sujay-515",
     demoUrl: "#",
   }
@@ -183,8 +183,8 @@ function App() {
         </div>
       </main>
       <TerminalCell isOpen={isTerminalOpen} onClose={() => setIsTerminalOpen(false)} />
-      <button 
-        onClick={() => setIsTerminalOpen(true)} 
+      <button
+        onClick={() => setIsTerminalOpen(true)}
         className="floating-terminal-btn"
         aria-label="Open terminal"
       >
