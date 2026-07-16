@@ -33,12 +33,12 @@ project_1.display()`,
     pythonCode: `project_2 = Project(
     name="Sirupata-farm-house",
     type="Django-based hotel web application",
-    stack=["Django", "MySQL", "TextBlob"],
+    stack=["Django", "MySQL", "scikit-learn", "TextBlob"],
     status="completed"
 )
 project_2.display()`,
     title: "Sirupata-farm-house — Django-based hotel website with ML recommendations.",
-    description: "A Django-based hotel website for Sirupata Farm House, featuring room bookings, review sentiment analysis (TextBlob), and content-based room recommendations (TF-IDF + Cosine Similarity).",
+    description: "Sirupata Farm House — Full-stack Django hotel booking platform for a farm-led retreat, with a dedicated ml_engine app handling content-based room recommendations (TF-IDF + cosine similarity, scikit-learn) and review sentiment scoring (TextBlob polarity blended with star ratings). Includes a booking-operations dashboard (monthly trends, room popularity, check-in/out tracking), AJAX-driven review sorting, and Docker/MySQL deployment.",
     repoUrl: "https://github.com/sujay-515/Sirupata-farm-house",
     demoUrl: "#",
   },
