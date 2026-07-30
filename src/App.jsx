@@ -41,22 +41,6 @@ project_2.display()`,
     description: "Sirupata Farm House — Full-stack Django hotel booking platform for a farm-led retreat, with a dedicated ml_engine app handling content-based room recommendations (TF-IDF + cosine similarity, scikit-learn) and review sentiment scoring (TextBlob polarity blended with star ratings). Includes a booking-operations dashboard (monthly trends, room popularity, check-in/out tracking), AJAX-driven review sorting, and Docker/MySQL deployment.",
     repoUrl: "https://github.com/sujay-515/Sirupata-farm-house",
     demoUrl: "/sirupata-demo.webp",
-  },
-  {
-    id: 3,
-    inNumber: 5,
-    outNumber: 5,
-    pythonCode: `project_3 = Project(
-    name="house-price-predictor",
-    type="housing market regression analysis",
-    stack=["pandas", "scikit-learn", "matplotlib"],
-    status="in_progress"
-)
-project_3.display()`,
-    title: "house-price-predictor — California housing data regression analysis.",
-    description: "Predicts median house values using multiple regression and random forest models. Built in Python with scikit-learn, pandas, and matplotlib.",
-    repoUrl: "https://github.com/sujay-515",
-    demoUrl: "#",
   }
 ];
 
