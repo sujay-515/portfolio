@@ -599,6 +599,11 @@ button:focus-visible {
   color: var(--indigo);
 }
 
+.btn-icon {
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
 .github-chart-container {
   margin-bottom: 20px;
   border: 1px solid var(--rule);
