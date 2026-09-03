@@ -15,48 +15,48 @@ const projectsData = [
     outNumber: 3,
     eyebrow: "projects/",
     pythonCode: `project_1 = Project(
-    name="Movie-Recommendation-Engine",
-    type="content-based recommendation system",
-    stack=["pandas", "scikit-learn"],
+    name="RAG-Resume-Matcher",
+    type="RAG-based resume-to-JD matching tool",
+    stack=["Django", "Sentence-Transformers", "ChromaDB", "Gemini API"],
     status="completed"
 )
 project_1.display()`,
-    title: "Movie-Recommendation-Engine — content-based movie recommendation system.",
-    description: "Movie-Recommendation-Engine — Full-stack movie recommender (FastAPI + React) using precomputed sentence-transformer embeddings (all-MiniLM-L6-v2), vectorized cosine similarity, fractional genre-overlap scoring, and a logarithmic popularity weight — across a 49k-title TMDB dataset. Includes typo-tolerant search and a 30-test suite.",
-    repoUrl: "https://github.com/sujay-515/Movie-Recommendation-Engine",
-    demoUrl: "/movie-recommender-demo.webp",
+    title: "RAG-Resume-Matcher — evidence-backed resume-to-job-description analysis.",
+    description: "Built a tool that matches resumes against job descriptions and generates an evidence-backed narrative explaining strengths and gaps. Retrieval pipeline: PDF/DOCX parsing, section-aware chunking, sentence-transformer embeddings, and ChromaDB vector storage. Two-stage multi-pass LLM pipeline (requirement extraction → evidence mapping → self-check → narrative summary) with Gemini-primary/Groq-fallback, served via Django REST API. Includes multi-user support with per-session vector-store isolation and a DB-backed daily usage cap.",
+    repoUrl: "https://github.com/sujay-515/RAG-Based-Resume-to-Job-Description-Matcher",
+    demoUrl: "#",
   },
   {
     id: 2,
     inNumber: 4,
     outNumber: 4,
     pythonCode: `project_2 = Project(
-    name="Sirupata-farm-house",
-    type="Django-based hotel web application",
-    stack=["Django", "MySQL", "scikit-learn", "TextBlob"],
+    name="Movie-Recommendation-Engine",
+    type="content-based recommendation system",
+    stack=["pandas", "scikit-learn"],
     status="completed"
 )
 project_2.display()`,
-    title: "Sirupata-farm-house — Django-based hotel website with ML recommendations.",
-    description: "Sirupata Farm House — Full-stack Django hotel booking platform for a farm-led retreat, with a dedicated ml_engine app handling content-based room recommendations (TF-IDF + cosine similarity, scikit-learn) and review sentiment scoring (TextBlob polarity blended with star ratings). Includes a booking-operations dashboard (monthly trends, room popularity, check-in/out tracking), AJAX-driven review sorting, and Docker/MySQL deployment.",
-    repoUrl: "https://github.com/sujay-515/Sirupata-farm-house",
-    demoUrl: "/sirupata-demo.webp",
+    title: "Movie-Recommendation-Engine — content-based movie recommendation system.",
+    description: "Movie-Recommendation-Engine — Full-stack movie recommender (FastAPI + React) using precomputed sentence-transformer embeddings (all-MiniLM-L6-v2), vectorized cosine similarity, fractional genre-overlap scoring, and a logarithmic popularity weight — across a 49k-title TMDB dataset. Includes typo-tolerant search and a 30-test suite.",
+    repoUrl: "https://github.com/sujay-515/Movie-Recommendation-Engine",
+    demoUrl: "/movie-recommender-demo.webp",
   },
   {
     id: 3,
     inNumber: 5,
     outNumber: 5,
     pythonCode: `project_3 = Project(
-    name="RAG-Resume-Matcher",
-    type="RAG-based resume-to-JD matching tool",
-    stack=["Django", "Sentence-Transformers", "ChromaDB", "Gemini API"],
+    name="Sirupata-farm-house",
+    type="Django-based hotel web application",
+    stack=["Django", "MySQL", "scikit-learn", "TextBlob"],
     status="completed"
 )
 project_3.display()`,
-    title: "RAG-Resume-Matcher — evidence-backed resume-to-job-description analysis.",
-    description: "Built a tool that matches resumes against job descriptions and generates an evidence-backed narrative explaining strengths and gaps. Retrieval pipeline: PDF/DOCX parsing, section-aware chunking, sentence-transformer embeddings, and ChromaDB vector storage. Two-stage multi-pass LLM pipeline (requirement extraction → evidence mapping → self-check → narrative summary) with Gemini-primary/Groq-fallback, served via Django REST API. Includes multi-user support with per-session vector-store isolation and a DB-backed daily usage cap.",
-    repoUrl: "https://github.com/sujay-515/RAG-Based-Resume-to-Job-Description-Matcher",
-    demoUrl: "#",
+    title: "Sirupata-farm-house — Django-based hotel website with ML recommendations.",
+    description: "Sirupata Farm House — Full-stack Django hotel booking platform for a farm-led retreat, with a dedicated ml_engine app handling content-based room recommendations (TF-IDF + cosine similarity, scikit-learn) and review sentiment scoring (TextBlob polarity blended with star ratings). Includes a booking-operations dashboard (monthly trends, room popularity, check-in/out tracking), AJAX-driven review sorting, and Docker/MySQL deployment.",
+    repoUrl: "https://github.com/sujay-515/Sirupata-farm-house",
+    demoUrl: "/sirupata-demo.webp",
   }
 ];
 
