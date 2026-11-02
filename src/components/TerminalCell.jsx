@@ -140,8 +140,8 @@ export default function TerminalCell({ isOpen, onClose }) {
     } else if (commandLower === 'whoami') {
       newHistory.push(
         "Sujay Pandey",
-        "Role: Aspiring ML Engineer",
-        "Tagline: Aspiring ML Engineer · CSIT Student"
+        "Role: Aspiring AI/ML Engineer",
+        "Tagline: Aspiring AI/ML Engineer · CSIT Student"
       );
     } else if (commandLower === 'skills') {
       newHistory.push(
