@@ -6,7 +6,7 @@ export default function HeroCell({ isRunning }) {
   const code = `def whoami():
     return {
         "name": "Sujay Pandey",
-        "role": "Aspiring ML Engineer",
+        "role": "Aspiring AI/ML Engineer",
         "status": "CSIT student, final semester",
         "education": "BSc. CSIT, Lumbini City College "
                      "(affiliated with Tribhuvan University), 2022–2026",
@@ -21,7 +21,7 @@ whoami()`;
         <span className="cursor" aria-hidden="true"></span>
       </div>
       <p className="hero-subtitle">
-        Aspiring ML Engineer · CSIT Student
+        Aspiring AI/ML Engineer · CSIT Student
       </p>
       <div className="status-badge-container">
         <span className="status-dot"></span>
